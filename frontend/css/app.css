@@ -1,0 +1,30 @@
+* {
+  outline: 1px solid rgb(235,245,255);
+}
+
+div, ul, section, main, header, footer {
+  height: 100%;
+}
+
+
+
+.h_15vh {
+  height: 15vh;
+}
+
+.h_75vh {
+  height: 75vh;
+}
+
+
+.h_10vh {
+  height: 10vh;
+}
+
+.h_5vh {
+  height: 5vh;
+}
+
+.h_a {
+  height: auto;
+}
