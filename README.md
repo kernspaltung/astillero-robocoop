@@ -1,8 +1,6 @@
 # astillero-robocoop
-Plataforma para Autogestión en Relación
 
+plataforma social para organizaciones autogestivas y público general
 
 ### colaboradores del equipo
-
-
-Luz2013, Furenku
+luz2013, furenku
