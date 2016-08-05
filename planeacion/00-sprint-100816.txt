@@ -4,6 +4,8 @@
 - mi home (herramientas + mundo)
 - tareas (funcional)
 - mapa (funcional)
+- maqueta NDT ( actividad, tareas, jerarquías, participantes, calendario, discusiones )
+- login
 
 Plantillas:
 
@@ -29,5 +31,28 @@ MI HOME
    - Mis Pendientes
    - Feed
    - Menú Herramientas
+   - NDT
    - Calendario
    - Listado de Fechas
+   - Tareas
+      - Cada tarea:
+         - Estado
+            Pendiente, Asignada, En proceso, Por revisar, Finalizada, Archivada, Cancelada
+         - Prioridad
+            (baja, normal, alta, urgente)
+         - Materiales
+            - Concepto
+            - Cantidad
+            - Costo estimado
+            - Costo real
+
+         - fecha de entrega esperada
+         - fecha de entrega real
+         - duración estimada
+         - duración real
+         - título
+         - descripción
+         - personas asignadas
+         - descripción larga opcional (admite html)
+         - comments
+         - attachments (máx. 1MB)
