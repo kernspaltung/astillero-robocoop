@@ -6,6 +6,7 @@
 - mapa (funcional)
 - maqueta NDT ( actividad, tareas, jerarquías, participantes, calendario, discusiones )
 - login
+- Objetivo: Lograr integrar 2 nodos de trabajo y 2 usuarios con distintas tareas en cada nodo.
 
 Plantillas:
 
