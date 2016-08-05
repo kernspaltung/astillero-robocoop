@@ -1,0 +1,33 @@
+10 de agosto:
+
+- home bien presentado
+- mi home (herramientas + mundo)
+- tareas (funcional)
+- mapa (funcional)
+
+Plantillas:
+
+HOME
+
+   - Texto bienvenida
+   - Menú gráfico
+   - Menú general (aparece cuando scrolleas hacia abajo tras Inicio)
+   - Vista eventos
+   - Vista actividades
+   - Descripción plataforma (3 subpáginas)
+   - Descripción parte privada en 3-4 puntos
+   - (sirve para convencer)
+   - Formulario de registro
+   - Mapa
+      Eventos
+      Lugares
+      Posts geolocalizados
+
+
+MI HOME
+   - Menú general
+   - Mis Pendientes
+   - Feed
+   - Menú Herramientas
+   - Calendario
+   - Listado de Fechas
