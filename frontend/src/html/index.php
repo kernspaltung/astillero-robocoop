@@ -11,7 +11,7 @@
 
   <title>Astillero | NDT</title>
 
-  <link href="../assets/css/astillero.min.css" rel="stylesheet">
+  <link href="assets/css/astillero.min.css" rel="stylesheet">
 
   <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
   <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -33,6 +33,10 @@
   <main class="container-fluid h_80 scroll_h">
 
    <h1>Contenido</h1>
+
+   <div class="container">
+      <i class="fa fa-close"></i>
+   </div>
 
     <section id="inicio-1" class="container h_80">
       <section class="col-sm-6"></section>
@@ -58,7 +62,7 @@
 
 
 
-  <script src="../../assets/js/astillero.min.js"></script>
+  <script src="assets/js/astillero.min.js"></script>
 
 </body>
 </html>
