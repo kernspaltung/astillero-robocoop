@@ -32,7 +32,7 @@ var paths = {
       config.sassDir,
    ],
    js: [
-      // config.bowerDir + '/jquery/dist/jquery.min.js',
+      config.bowerDir + '/jquery/dist/jquery.js',
       // config.bowerDir + '/bootstrap-sass/assets/javajs/bootstrap.min.js',
       'src/js/*.js'
    ],
@@ -73,8 +73,8 @@ gulp.task('fonts', function() { 
 
 gulp.task('js', function() {
    return gulp.src(paths.js)
-   .pipe(jshint('.jshintrc'))
-   .pipe(jshint.reporter('default'))
+   // .pipe(jshint('.jshintrc'))
+   // .pipe(jshint.reporter('default'))
    .pipe(concat('astillero.min.js'))
    .pipe(uglify())
    .pipe(gulp.dest('dist/assets/js'))

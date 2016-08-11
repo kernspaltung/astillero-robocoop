@@ -1,3 +1,5 @@
-// jQuery(document).ready(function($){
-   alert(123);
-// });
+$(document).ready(function(){
+
+   $('body').animate({ marginTop: 300 })
+
+});
