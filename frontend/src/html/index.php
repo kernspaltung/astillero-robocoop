@@ -32,33 +32,30 @@
 
   <main class="container-fluid h_80 scroll_h">
 
-   <h1>Contenido</h1>
+     <!-- Button trigger modal -->
+ <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+   Launch demo modal
+   <i class="fa fa-power-off"></i>
+ </button>
 
-   <div class="container">
-      <i class="fa fa-close"></i>
+ <!-- Modal -->
+ <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+   <div class="modal-dialog" role="document">
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+       </div>
+       <div class="modal-body">
+         ...
+       </div>
+       <div class="modal-footer">
+         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+         <button type="button" class="btn btn-primary">Save changes</button>
+       </div>
+     </div>
    </div>
-
-    <section id="inicio-1" class="container h_80">
-      <section class="col-sm-6"></section>
-      <section class="col-sm-6"></section>
-    </section>
-
-    <section id="inicio-2" class="container h_80">
-      <section class="col-sm-6"></section>
-      <section class="col-sm-6"></section>
-    </section>
-
-    <section id="inicio-3" class="container h_80">
-      <section class="col-sm-4"></section>
-      <section class="col-sm-4"></section>
-      <section class="col-sm-4"></section>
-    </section>
-
-  </main><!-- /.container -->
-
-  <footer class="container-fluid h_5">
-  </footer><!-- /.container -->
-
+ </div>
 
 
 

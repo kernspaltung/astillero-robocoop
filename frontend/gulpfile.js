@@ -33,7 +33,7 @@ var paths = {
    ],
    js: [
       config.bowerDir + '/jquery/dist/jquery.js',
-      // config.bowerDir + '/bootstrap-sass/assets/javajs/bootstrap.min.js',
+      config.bowerDir + '/bootstrap-sass/assets/javascripts/bootstrap.min.js',
       'src/js/*.js'
    ],
    fonts: [
@@ -105,10 +105,10 @@ gulp.task('default', ['clean'], function() {
 
 gulp.task('watch', function() {
 
-  gulp.watch('src/styles/**/*.scss', ['styles']);
-  gulp.watch('src/js/**/*.js', ['js']);
-  gulp.watch('src/html/**/*.html', ['html']);
-  gulp.watch('src/html/**/*.php', ['html']);
+  gulp.watch('src/scss/*', ['sass']);
+  gulp.watch('src/js/*', ['js']);
+  gulp.watch('src/html/*', ['html']);
+
   // gulp.watch('src/images/**/*', ['images']);
   livereload.listen();
 
