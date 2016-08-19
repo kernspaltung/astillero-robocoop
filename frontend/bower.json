@@ -1,0 +1,17 @@
+{
+  "name": "astillero-robocoop-frontend",
+  "description": "",
+  "main": "dist/index.php",
+  "authors": [
+    "furenku"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/kernspaltung/astillero-robocoop",
+  "moduleType": [],
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.7",
+    "font-awesome": "fontawesome#^4.6.3",
+    "imgLiquid": "^0.9.944"
+  }
+}

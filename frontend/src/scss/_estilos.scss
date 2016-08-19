@@ -1,3 +1,21 @@
+@debug "Falta mover cosas a styleutils";
+
+.m-b-1 {
+   margin-bottom: 15px;
+}
+.m-l-a {
+   margin-left: auto;
+}
+.m-r-a {
+   margin-left: auto;
+}
+.m-lr-a {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+
 * {
    outline: 1px solid #ddd;
 }
@@ -7,11 +25,6 @@ body,html {
    height: 100%;
 }
 
-* {
-   color: white !important;
-   font-weight: bold;
-}
-
-body,html {
-   background-color: #fa0 !important;
+li {
+   list-style: none;
 }
